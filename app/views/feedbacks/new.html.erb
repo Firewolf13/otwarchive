@@ -9,10 +9,11 @@
 
 <p><%= ts("We're still in our beta phase, so there are lots of improvements and") %> <a href="http://transformativeworks.org/node/96" title="Archive Roadmap">new features planned</a>. <%= ts("Please do use this form to let us know about your experience of using the site - good and bad.
   If you'd like a reply, make sure you include your email address, but anonymous feedback is welcomed as well.") %></p>
+  
+<p><%= ts("AO3 is built, maintained and supported by volunteers and is funded by donations from our users. Interested in helping out? You can find more information on our") %> 
+  <%= link_to t('.donate', :default => "Donations"), donate_path %>. <%= ts("Every gift of time or money is greatly appreciated!") %></p>
 
 <p><%= ts("When reporting an issue, please remember that more info is always welcome. Let us know what error pages/messages you're seeing. Include links if applicable!") %></p>
-
-<p><%= ts("We would also greatly appreciate help, if you would like to help you can go to") %> <%= link_to t('.donate', :default => "Donations"), donate_path %>.
 
 <p><%= ts("If you're looking for help, you can find answers to many common questions in our") %> <%= link_to ts("FAQ section"), archive_faqs_path %></p> 
 
